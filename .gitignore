@@ -1,0 +1,28 @@
+
+*.zip
+
+# Mac system files
+.DS_Store
+
+*.class
+*.log
+
+# sbt specific
+.cache/
+.history/
+.lib/
+dist/*
+target/
+lib_managed/
+src_managed/
+project/boot/
+project/plugins/project/
+
+# Scala-IDE specific
+bin/
+.settings/
+.metadata
+*.cache
+*.scala_dependencies
+*.worksheet
+**/.idea/*
